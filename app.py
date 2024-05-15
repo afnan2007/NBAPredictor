@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sklearn
 from sklearn.linear_model import RidgeClassifier
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SequentialFeatureSelector
