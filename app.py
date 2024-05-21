@@ -238,11 +238,11 @@ if but:
              
         #no match occured
         else:
-            st.markdown(f'<div class="title"><h1>Match Prediction is unavailable. Missing data of the matchup occured between {one} and {two} on {dat}.</h1></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="title"><h1>Match prediction is unavailable. Missing data of the matchup occured between {one} and {two} on {dat}.</h1></div>', unsafe_allow_html=True)
      
         #no match occured
     else:
-        st.markdown(f'<div class="title"><h1>Match Prediction is unavailable. Missing data of the matchup occured between {one} and {two} on {dat}.</h1></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="title"><h1>Match prediction is unavailable. Missing data of the matchup occured between {one} and {two} on {dat}.</h1></div>', unsafe_allow_html=True)
 
 
 h, middl, i = st.columns([1,1,1])
